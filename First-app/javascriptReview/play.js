@@ -130,7 +130,7 @@ const fetchData = () =>{
     const promise = new Promise((resolve,reject) => {
         setTimeout(() => {
             resolve("done!")
-        },1500)
+        },2000)
     });
     return promise
 }

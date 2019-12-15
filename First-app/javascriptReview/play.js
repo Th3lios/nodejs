@@ -127,7 +127,7 @@ setTimeout(()=>{
 /* Promises */
 
 const fetchData = () =>{
-    const promise = new Promise((resolve,reject) => {
+    const promise = new promise((resolve,reject) => {
         setTimeout(() => {
             resolve("done!")
         },2000)
